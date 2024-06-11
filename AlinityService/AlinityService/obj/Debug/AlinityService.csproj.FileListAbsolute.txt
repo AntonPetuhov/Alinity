@@ -1,0 +1,15 @@
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\AlinityService.exe.config
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\AlinityService.exe
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\AlinityService.pdb
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\System.Security.AccessControl.dll
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\System.Security.Permissions.dll
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\System.Security.AccessControl.xml
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\System.Security.Permissions.xml
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\obj\Debug\AlinityService.csproj.CopyComplete
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\obj\Debug\AlinityService.exe
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\obj\Debug\AlinityService.pdb
+C:\Users\anton.petuhov\source\repos\AlinityService\AlinityService\obj\Debug\AlinityService.csprojAssemblyReference.cache
