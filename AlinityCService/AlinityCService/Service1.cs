@@ -1038,11 +1038,14 @@ namespace AlinityCService
                                            $"SelectError: {client.Poll(1, SelectMode.SelectError)};");
 
                             TCPServerLog("Ожидание переподключения");
+                            TCPServerLog("");
                             // accept блокирует дальнейшее выполнение
                             client = socket.Accept();
                         }
 
                         // если клиент ничего не посылает
+                        // так как в настройках передачи прибора стоит "Активно Временно", прибор клиентом подключается только тогда, когда есть что передать
+                        // соответственно это условие обрабатываться не будет
                         if (client.Available == 0)
                         {
                             ServerCount++;
@@ -1757,13 +1760,13 @@ namespace AlinityCService
             ListOfThreads.Add(ResultProcessingThread);
             ResultProcessingThread.Start();
 
-            /*
+            
             // Поток удаления старых логов
             Thread DeleteOldLogsThread = new Thread(DeleteOldLogs);
             DeleteOldLogsThread.Name = "DeleteOldLogs";
             ListOfThreads.Add(DeleteOldLogsThread);
             DeleteOldLogsThread.Start();
-            */
+            
         }
 
         protected override void OnStop()
