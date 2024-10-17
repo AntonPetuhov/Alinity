@@ -1429,7 +1429,7 @@ namespace AlinityCService
                         TCPClientLog("");
 
                         // Отправка теста соединения. Работает, прибор отвечает.
-                        // NMDNO2Sending(sending_socket, Encoding.UTF8);
+                        NMDNO2Sending(sending_socket, Encoding.UTF8);
                     }
                 }
                 // если сервер прибора что-то отправил клиенту драйвера
